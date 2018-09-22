@@ -7,9 +7,20 @@
     </h:head>
     <h:body>
         
+        <h:form>
+            
+            <h:inputText value="#{inicioBean.teste}"/> <br/>
+            
+            <h:outputText value="#{inicioBean.outPut}"> </h:outputText>
+            
+            <h:commandButton actionListener="#{inicioBean.mudeiUmValorproinput()}" value="Clique aqui"></h:commandButton> 
+            
+            
+            
+        </h:form>
         
+               
         
-        Hello from Facelets
     </h:body>
 </html>
 
